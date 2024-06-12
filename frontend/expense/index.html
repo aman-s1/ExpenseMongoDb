@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker App</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<style>
+    body {
+        background-color: #f0f5f5;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-header {
+        color: #1565c0;
+        background-color: #b3e0f2;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .content-container {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .expense-form {
+        flex: 0.32;
+        max-width: 400px;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #1565c0;
+    }
+
+    input,
+    select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        border: 1px solid #b3e0f2;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    #add-button {
+        background-color: #1565c0;
+        color: #ffffff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #add-button:hover {
+        background-color: #003c8f;
+    }
+    #rzp-button {
+        background-color: #1565c0;
+        color: #ffffff;
+        margin-top: 15px;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    #rzp-button:hover {
+        background-color: #003c8f;
+    }
+    #error-box {
+        color: red;
+    }
+
+    #expenses-wrapper {
+        flex: 0.4;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 20px;
+        margin-left: 20px;
+        overflow-y: auto;
+    }
+    .total-expenses {
+        flex: 0.32;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 20px;
+        margin-left: 20px;
+        overflow-y: auto;
+        text-align: center;
+    }
+    #downloadexpense {
+        background-color: #1565c0;
+        color: #ffffff;
+        margin: 0 auto;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: none;
+    }
+    .leader-box {
+        flex: 0.32;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 20px;
+        margin-left: 20px;
+        overflow-y: auto;
+    }
+    #sumexp {
+        color: #1565c0;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    #expensesPieChart {
+        height: fit-content;
+        max-width: 250px;
+    }
+    #prev-page-btn, #next-page-btn {
+        background-color: #1565c0;
+        color: #ffffff;
+        margin-top: 15px;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 25px;
+    }
+    #prev-page-btn:hover, #next-page-btn:hover{
+        background-color: #003c8f;
+    }
+</style>
+
+<body>
+    <h1 class="top-header">Expense Tracker</h1>
+
+    <div class="content-container">
+        <form class="expense-form" onsubmit="addexpense(event)">
+            <label for="expenseamt">Expense Amount</label>
+            <input type="number" id="expenseamt" name="amount" required>
+
+            <label for="description">Description</label>
+            <input type="text" id="description" name="description" required>
+
+            <label for="category">Category</label>
+            <select id="category" name="category">
+                <option value="Grocery">Grocery</option>
+                <option value="Fuel">Fuel</option>
+                <option value="Transport">Transport</option>
+                <option value="Restaurants">Restaurants</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Recharges">Recharges</option>
+                <option value="Bill Pay">Bill Pay</option>
+            </select>
+            <button id="add-button" type="submit">Add Expense</button>
+            <div id="error-box">
+            </div>
+        </form>
+        
+        <div id="expenses-wrapper">
+            <h3 id="user-name"></h3>
+            <ul id="expenses-list">
+                <!-- Add list items here -->
+            </ul>
+        </div>
+        <div class="total-expenses">
+            <button id="rzp-button">Buy Premium</button>
+            <button onclick="download()" id="downloadexpense">Download File</button>
+            <h4 id="prem-head" style="font-size:small; color: #1565c0; align-self: center; display: none;">You are a premium user!</h4>
+            <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+            <h3 id="sumexp"></h3>
+            <br>
+            <canvas id="expensesPieChart" width="400" height="400"></canvas>
+        </div>
+        <div class="leader-box">
+            <h3 id="message"></h3>
+            <ul id="leaderboard">
+            </ul>
+        </div>
+    </div>
+    <div id="page-btn">
+        <button id="prev-page-btn">Prev</button><button id="next-page-btn">Next</button>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+<script src="./index.js"></script>
+</html>

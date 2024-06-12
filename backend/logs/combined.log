@@ -1,0 +1,334 @@
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Payment Completed: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Payment Completed: Success"}
+{"level":"info","message":"Transaction Status Updated: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Mail Sent To Reset Password : Success"}
+{"kind":"ObjectId","level":"error","message":"Error processing Request Cast to ObjectId failed for value \"ab51afd7-0896-41e8-93cd-1b6e05d691f5\" (type string) at path \"_id\" for model \"Forgot\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"ab51afd7-0896-41e8-93cd-1b6e05d691f5\" (type string) at path \"_id\" for model \"Forgot\"\n    at SchemaObjectId.cast (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)\n    at SchemaType.applySetters (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1221:12)\n    at SchemaType.castForQuery (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1636:17)\n    at cast (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\cast.js:375:32)\n    at Query.cast (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:4746:12)\n    at Query._castConditions (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:2200:10)\n    at model.Query._findOne (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:2484:8)\n    at model.Query.exec (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:4290:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async resetpassword (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\controllers\\resetpassword.js:80:39)","stringValue":"\"ab51afd7-0896-41e8-93cd-1b6e05d691f5\"","value":"ab51afd7-0896-41e8-93cd-1b6e05d691f5","valueType":"string"}
+{"level":"info","message":"Login : Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Download Expense: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Added: Success."}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Added: Success."}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Added: Success."}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Added: Success."}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Added: Success."}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Added: Success."}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Added: Success."}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Added: Success."}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got LeaderBoard Array : Success"}
+{"level":"info","message":"Download Expense: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Deleted : Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Deleted : Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got LeaderBoard Array : Success"}
+{"level":"info","message":"Got LeaderBoard Array : Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"kind":"ObjectId","level":"error","message":"Error processing request: Cast to ObjectId failed for value \"[object PointerEvent]\" (type string) at path \"_id\" for model \"Expense\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"[object PointerEvent]\" (type string) at path \"_id\" for model \"Expense\"\n    at SchemaObjectId.cast (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)\n    at SchemaType.applySetters (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1221:12)\n    at SchemaType.castForQuery (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1636:17)\n    at cast (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\cast.js:375:32)\n    at Query.cast (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:4746:12)\n    at Query._castConditions (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:2200:10)\n    at model.Query._findOne (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:2484:8)\n    at model.Query.exec (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:4290:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async deleteExpense (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\controllers\\expense.js:157:25)","stringValue":"\"[object PointerEvent]\"","value":"[object PointerEvent]","valueType":"string"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"kind":"ObjectId","level":"error","message":"Error processing request: Cast to ObjectId failed for value \"[object PointerEvent]\" (type string) at path \"_id\" for model \"Expense\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"[object PointerEvent]\" (type string) at path \"_id\" for model \"Expense\"\n    at SchemaObjectId.cast (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)\n    at SchemaType.applySetters (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1221:12)\n    at SchemaType.castForQuery (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1636:17)\n    at cast (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\cast.js:375:32)\n    at Query.cast (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:4746:12)\n    at Query._castConditions (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:2200:10)\n    at model.Query._findOne (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:2484:8)\n    at model.Query.exec (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\node_modules\\mongoose\\lib\\query.js:4290:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async deleteExpense (C:\\Users\\amans\\Downloads\\ExpenseMongoDb\\backend\\controllers\\expense.js:157:25)","stringValue":"\"[object PointerEvent]\"","value":"[object PointerEvent]","valueType":"string"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Deleted : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Added: Success."}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Added: Success."}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Deleted : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Expense Added: Success."}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Request To check Premium: Success."}
+{"level":"info","message":"Got Expenses : Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got Expense Sum: Success"}
+{"level":"info","message":"Got LeaderBoard Array : Success"}
